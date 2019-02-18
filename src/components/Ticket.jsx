@@ -33,6 +33,7 @@ const { classes } = props;
         <Paper className={classes.paper}>
         <h3>{props.location} - {props.names}</h3>
         <p><em>{props.issue}</em></p>
+        <p>{props.id}</p>
         <hr/>
         </Paper>
         </Grid>
